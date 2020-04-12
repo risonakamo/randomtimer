@@ -1,0 +1,3 @@
+# possible fonts
+- source han sans
+- A-OTF UDêVÉS, A-OTF UD Shin Go
