@@ -2,7 +2,8 @@
   "name": "randomtimer",
   "version": "0.0.0",
   "scripts": {
-    "server":"node testserver/server"
+    "server": "node testserver/server",
+    "link-all": "npm link @babel/core @babel/preset-react @babel/preset-typescript babel-loader css-loader fork-ts-checker-webpack-plugin less less-loader mini-css-extract-plugin typescript webpack webpack-cli webpackbar express"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
