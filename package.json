@@ -1,13 +1,9 @@
 {
   "name": "randomtimer",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server":"node testserver/server"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-react": "^7.9.4",
@@ -22,5 +18,8 @@
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpackbar": "^4.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
